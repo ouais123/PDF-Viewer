@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item  android:id="@+id/send_a_file"
+        android:title="@string/send_a_file"/>
+    <item  android:id="@+id/opened_by_using"
+        android:title="@string/opened_by_using"/>
+    <item android:id="@+id/display"
+        android:title="@string/display">
+        <menu>
+            <item android:id="@+id/vertical"
+                app:actionViewClass="android.widget.CheckBox"
+                android:checkable="true"
+                android:title="@string/vertical"/>
+            <item android:id="@+id/horizontal"
+                app:actionViewClass="android.widget.CheckBox"
+                android:checkable="true"
+                android:title="@string/horizontal"/>
+        </menu>
+    </item>
+    <item android:id="@+id/report_a_problem"
+        android:title="@string/report_a_problem"/>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item  android:id="@+id/update"
+        android:title="@string/update"/>
+    <item  android:id="@+id/view_from_internet"
+        android:title="@string/view_from_internet"/>
+    <item android:id="@+id/display_f"
+        android:title="@string/display">
+        <menu>
+            <item android:id="@+id/last_modified"
+                android:title="@string/last_modified"
+                app:actionViewClass="android.widget.CheckBox"
+                android:checkable="true"/>
+            <item android:id="@+id/alphabet"
+                android:title="@string/alphabet"
+                app:actionViewClass="android.widget.CheckBox"
+                android:checkable="true"/>
+            <item android:id="@+id/random"
+                android:title="@string/random"
+                app:actionViewClass="android.widget.CheckBox"
+                android:checkable="true"/>
+        </menu>
+    </item>
+    <item  android:id="@+id/about_as"
+        android:title="@string/about_as"/>
+    <item  android:id="@+id/get_help"
+        android:title="@string/get_help"/>
+</menu>
